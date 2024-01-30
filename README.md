@@ -12,21 +12,18 @@ To compile the C&C server and the bot server, follow these steps:
 
 Clone this repository, Change folder dir to the main program file and using the Go compiler
 
-'  go build main.go '
-
-'  go run main.go   '
-
-Same with the bot
-
-'  go build bot.go  '
-
-'  go run bot.go    '
+```
+     go build main.go
+     go run main.go   
+     go build bot.go  
+     go run bot.go    
+```
 
 :gear: Running the C&C Server
 Start the C&C server on port 1338:
-
-$ ./main
-
+```
+ ./main
+```
 The C&C server will start listening for incoming connections from administrators (clients) on port 1338 you can change it the login info is also basic on the text file in this formate.  Username:Passwd
 
 Edit line 10 - 11 on bot.go to change the ip / port it directs / connects to.
@@ -36,13 +33,13 @@ The bot will attempt to connect to the CNC server at the specified IP and port.
 Once connected to the C&C server, the administrator can send commands.
 
 :bulb: Example Commands
-
+```
 bots: Get the number of connected bots.
 
 clear: Clear the screen of the connected bot terminals.
 
 logout: Log out from the C&C server.
-
+```
 
 To connect To the cnc I would recommend using mobaxterm or putty use the ip the server is running on and the botport and then you will be a login menu for the cnc
 
