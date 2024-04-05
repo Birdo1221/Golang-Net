@@ -56,7 +56,7 @@ go run bot.go
 ```
 
 :gear: Running the C&C Server
-StartS the C&C server on port 1338 [default]:
+Start the C&C server on port 1338 by [default]:
 ```
 ./main
 ```
