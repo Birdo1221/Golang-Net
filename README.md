@@ -2,11 +2,20 @@ Simple Botnet Command and Control (C&C) Server in Go.
 
 :rocket: Getting Started
 
-:white_check_mark: Prerequisites
+:white_check_mark: 
 Make sure you have Go installed on your system.
-You can download and install it from the official site https://go.dev/
+You can download and install it from the official site
+```
+https://go.dev/
+```
+Or for Linux Based OS'S
+```
+apt install golang
+yum install golang
+dnf install golang
+```
 
-:wrench: Compiling
+:wrench: 
 To compile the C&C server and the bot server, follow these steps:
 
 Clone this repository, Change folder dir to the main program file and using the Go compiler
@@ -19,16 +28,21 @@ Clone this repository, Change folder dir to the main program file and using the 
 ```
 
 :gear: Running the C&C Server
-Start the C&C server on port 1338:
+StartS the C&C server on port 1338 [default]:
 ```
  ./main
 ```
-The C&C server will start listening for incoming connections from administrators (clients) on port 1338 you can change it the login info is also basic on the text file in this formate.  Username:Passwd
 
-Edit line 10 - 11 on bot.go to change the ip / port it directs / connects to.
-The bot will attempt to connect to the CNC server at the specified IP and port.
+:speech_balloon: 
+The C&C server will start listening for incoming connections from Clients on port 1338.
+You can change via the SRC.
+Login info is on a text file in this format. [Users.txt]
 
-:speech_balloon: Sending Commands
+Username:Passwd
+
+Edit line 10 - 11 on bot.go to change the ip / port it listens / connects to.
+The bot will attempt to connect to the server at the specified IP and port.
+ 
 Once connected to the C&C server, the administrator can send commands.
 
 :bulb: Example Commands
@@ -45,13 +59,14 @@ To connect To the cnc I would recommend using mobaxterm or putty use the ip the 
 ❗ Remember that this is a POC / concept
 
 :lock: Security Considerations
+
 This project is intended for educational and learning purposes only. The code provided here is a very simplified example of a botnet architecture. Remember that using a botnet for any malicious purposes is strictly prohibited and against ethical guidelines. This project is intended for educational and learning purposes only.
 
-The code does not include advanced security measures, and it is not suitable for production use. If you plan to build a real botnet or similar systems, ensure that you understand the legal implications and the importance of securing the system to prevent unauthorized access.
+The code does not include advanced security measures, and it is not suitable for Public use. If you plan to build a real botnet or similar systems, ensure that you understand the legal implications of you actions and the importance of securing  system's to prevent unauthorized access.
 
-:handshake: Contributing
-Contributions are welcome! If you find any issues or have improvements to suggest, feel free to create a pull request.
+:handshake: 
+Contributions are welcome! If you find any issues or have improvements to suggest, feel free to create a pull request or just reupload, no need to reference me for the SRC.
 
-:page_with_curl: License
+:page_with_curl: 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
