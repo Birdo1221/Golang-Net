@@ -21,16 +21,16 @@ To compile the C&C server and the bot server, follow these steps:
 Clone this repository, Change folder dir to the main program file and using the Go compiler
 
 ```
-     go build main.go
-     go run main.go   
-     go build bot.go  
-     go run bot.go    
+go build main.go
+go run main.go   
+go build bot.go  
+go run bot.go    
 ```
 
 :gear: Running the C&C Server
 StartS the C&C server on port 1338 [default]:
 ```
- ./main
+./main
 ```
 
 :speech_balloon: 
