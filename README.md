@@ -70,14 +70,12 @@ After Start the Bot / Client  on a virtual machine or on your local machine to t
 The C&C server will start listening for incoming connections from Clients on port 1338.
 You can change via the SRC.
 Login info is on a text file in this format. [Users.txt]
-
-Username:Passwd
-
-Edit line 10 - 11 on bot.go to change the ip / port it listens / connects to.
-The bot will attempt to connect to the server at the specified IP and port.
- 
+```
+Admin:Passwd
+```
 Once connected to the C&C server, the administrator can send commands.
 
+ 
 :bulb: Example Commands
 ```
 bots: Get the number of connected bots.
