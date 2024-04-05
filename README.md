@@ -1,5 +1,4 @@
-Simple Botnet Command and Control (C&C) Server
-This project demonstrates a simple Botnet Command and Control (C&C) server and bot server written in Go.
+Simple Botnet Command and Control (C&C) Server in Go.
 
 :rocket: Getting Started
 
