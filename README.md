@@ -56,7 +56,12 @@ go run bot.go
 ```
 
 :gear: Running the C&C Server
-Start the C&C server on port 1338 by [default]:
+Start the C&C server on port 1338 [default port].
+```
+./main
+```
+
+After Start the Bot / Client  on a virtual machine or on your local machine to test it out, monitor you network to see the packet to the [ Client <--> Bot ] or [ Bot <--> Client ] , i wouldnt recommend using on public foward facing networks as it has no security implementations or anything to save you.
 ```
 ./main
 ```
