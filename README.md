@@ -25,21 +25,21 @@ Edit Line 10-11 to change the IP to connect to and the Port for the Bot connecti
 ```
 const (
 	cncServerIP   = "127.0.0.1" // Replace with your CNC server IP
-	cncServerPort = ":5000"    // Replace with your CNC server port
+	cncServerPort = ":5000"     // Replace with your CNC server port
 )
 ```
 
 Edit Line 14 to change the Bot Port for the Port the Bot / Client Connects at.
 ```
 const (
-	botPort         = ":5000"        // Bot will listen on port 5000
+	botPort         = ":5000"   // Bot will listen on port 5000
 )
 ```
 
 Edit Line 218-219 for the server IP to bind to and Port for the User Login on the server
 ```
-	cncServerIP := "127.0.0.1"
-	cncServerPort := "6000"
+   cncServerIP := "127.0.0.1"
+   cncServerPort := "6000"
 ```
 
 
