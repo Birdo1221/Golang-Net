@@ -1,10 +1,5 @@
-Simple Botnet Command and Control (C&C) Server in Go.
-
-:rocket:
-
-Getting Started
-
-:white_check_mark: 
+:rocket: Simple Botnet Command and Control (C&C) Server in Go.
+:white_check_mark: Getting Started
 
 
 Make sure you have Go installed on your system.
