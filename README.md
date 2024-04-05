@@ -17,9 +17,7 @@ yum install golang
 dnf install golang
 ```
 
-:wrench: 
-
-You may need to configure the files for there IP's or Port Values 
+:wrench:   You may need to configure the files for there IP's or Port Values 
 
 Edit Line 10-11 to change the IP to connect to and the Port for the Bot connection 
 
@@ -56,9 +54,8 @@ go run main.go
 go run bot.go    
 ```
 
-:gear: 
+:gear:  Running the C&C Server
 
-Running the C&C Server
 Start the C&C server on port 1338 [default port].
 ```
 ./main
@@ -69,7 +66,7 @@ After Start the Bot / Client  on a virtual machine or on your local machine to t
 ./main
 ```
 
-:speech_balloon: 
+:speech_balloon:   
 
 The C&C server will start listening for incoming connections from Clients on port 1338.
 You can change via the SRC.
