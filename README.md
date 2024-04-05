@@ -18,14 +18,40 @@ dnf install golang
 ```
 
 :wrench: 
+You may need to configure the files for there IP's or Port Values 
+
+Edit Line 10-11 to change the IP to connect to and the Port for the Bot connection 
+
+```
+const (
+	cncServerIP   = "127.0.0.1" // Replace with your CNC server IP
+	cncServerPort = ":5000"    // Replace with your CNC server port
+)
+```
+
+Edit Line 14 to change the Bot Port for the Port the Bot / Client Connects at.
+```
+const (
+	botPort         = ":5000"        // Bot will listen on port 5000
+)
+```
+
+Edit Line 218-219 for the server IP to bind to and Port for the User Login on the server
+```
+	cncServerIP := "127.0.0.1"
+	cncServerPort := "6000"
+```
+
+
 To compile the C&C server and the bot server, follow these steps:
 
 Clone this repository, Change folder dir to the main program file and using the Go compiler
-
 ```
 go build main.go
-go run main.go   
-go build bot.go  
+
+go build bot.go
+
+go run main.go
 go run bot.go    
 ```
 
