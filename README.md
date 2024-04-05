@@ -8,7 +8,7 @@ You can download and install it from the official site
 
 For Windows
 ```
-https://go.dev/
+https://go.dev/dl/
 ```
 Or for Linux Based OS'S
 ```
