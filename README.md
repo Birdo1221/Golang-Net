@@ -5,6 +5,8 @@ Simple Botnet Command and Control (C&C) Server in Go.
 :white_check_mark: 
 Make sure you have Go installed on your system.
 You can download and install it from the official site
+
+For Windows
 ```
 https://go.dev/
 ```
