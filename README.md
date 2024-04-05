@@ -66,9 +66,7 @@ After Start the Bot / Client  on a virtual machine or on your local machine to t
 ./main
 ```
 
-:speech_balloon:   
-
-The C&C server will start listening for incoming connections from Clients on port 1338.
+:speech_balloon:   The C&C server will start listening for incoming connections from Clients on port 1338.
 You can change via the SRC.
 Login info is on a text file in this format. [Users.txt]
 ```
@@ -77,9 +75,7 @@ Admin:Passwd
 Once connected to the C&C server, the administrator can send commands.
 
  
-:bulb:
-
-Example Commands
+:bulb:   Example Commands
 ```
 bots: Get the number of connected bots.
 
@@ -92,18 +88,13 @@ To connect To the cnc I would recommend using mobaxterm or putty use the ip the 
 
 ❗ Remember that this is a POC / concept
 
-:lock:
-
-Security Considerations
+:lock:   Security Considerations
 
 This project is intended for educational and learning purposes only. The code provided here is a very simplified example of a botnet architecture. Remember that using a botnet for any malicious purposes is strictly prohibited and against ethical guidelines. This project is intended for educational and learning purposes only.
 
 The code does not include advanced security measures, and it is not suitable for Public use. If you plan to build a real botnet or similar systems, ensure that you understand the legal implications of you actions and the importance of securing  system's to prevent unauthorized access.
 
-:handshake: 
+:handshake:    Contributions are welcome! If you find any issues or have improvements to suggest, feel free to create a pull request or just reupload, no need to reference me for the SRC.
 
-Contributions are welcome! If you find any issues or have improvements to suggest, feel free to create a pull request or just reupload, no need to reference me for the SRC.
-
-:page_with_curl: 
-This project is licensed under the MIT License - see the LICENSE file for details.
+:page_with_curl:    This project is licensed under the MIT License - see the LICENSE file for details.
 
