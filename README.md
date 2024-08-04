@@ -1,4 +1,4 @@
-:rocket: Simple Botnet Command and Control (C&C) Server in Go.
+#:rocket: **Simple Botnet Command and Control (C&C) Server in Go.**
 ## This project is Depreciated and Wont recive further updates
 
 Ive Updated This Project For Both the Server And Client 
