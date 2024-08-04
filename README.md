@@ -43,7 +43,6 @@ Edit Line 218-219 for the server IP to bind to and Port for the User Login on th
    cncServerPort := "6000"
 ```
 
-
 To compile the C&C server and the bot server, follow these steps:
 
 Clone this repository, Change folder dir to the main program file and using the Go compiler
