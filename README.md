@@ -1,4 +1,5 @@
 :rocket: Simple Botnet Command and Control (C&C) Server in Go.
+## This project is Depreciated and Wont recive further updates
 
 Ive Updated This Project For Both the Server And Client 
 On My New Repo, This is the link to the: [Better Varient](https://github.com/Birdo1221/Better-Go-Cnc/)
